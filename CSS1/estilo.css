@@ -1,0 +1,9 @@
+
+.bordar{
+	background-color: gray;
+	border: 5px solid black;
+	border-radius: 25px;
+	border-top-right-radius: 80px;
+	border-bottom-left-radius: 80px;
+	padding: 20px;
+}
