@@ -1,0 +1,1 @@
+Ele faz as declarações irem para o topo de um escopo.

@@ -1,0 +1,63 @@
+commit 6994d07133c66731ae61e023f9a56dd8979ca3a6 (HEAD -> master, origin/master, origin/HEAD)
+Author: leideFerreira <lmsf@icomp.ufam.edu.br>
+Date:   Thu Apr 12 11:39:03 2018 -0400
+
+    Exercicio JS3
+
+commit 27ad2131018ba4cd833303853e90279c0c3ab7e3
+Author: leideFerreira <lmsf@icomp.ufam.edu.br>
+Date:   Tue Apr 10 00:22:49 2018 -0400
+
+    Atividade JS2
+
+commit 54ce0de9180cdb4b31b68b8b7fd51b8e1e03e000
+Author: leideFerreira <lmsf@icomp.ufam.edu.br>
+Date:   Fri Apr 6 12:17:24 2018 -0400
+
+    Atividade JS1
+
+commit 30ec003d6f62d4f1e1765119ed1af85905557f8a
+Author: leideFerreira <lmsf@icomp.ufam.edu.br>
+Date:   Thu Mar 29 13:21:00 2018 -0400
+
+:...skipping...
+commit 6994d07133c66731ae61e023f9a56dd8979ca3a6 (HEAD -> master, origin/master, origin/HEAD)
+Author: leideFerreira <lmsf@icomp.ufam.edu.br>
+Date:   Thu Apr 12 11:39:03 2018 -0400
+
+    Exercicio JS3
+
+commit 27ad2131018ba4cd833303853e90279c0c3ab7e3
+Author: leideFerreira <lmsf@icomp.ufam.edu.br>
+Date:   Tue Apr 10 00:22:49 2018 -0400
+
+    Atividade JS2
+
+commit 54ce0de9180cdb4b31b68b8b7fd51b8e1e03e000
+Author: leideFerreira <lmsf@icomp.ufam.edu.br>
+Date:   Fri Apr 6 12:17:24 2018 -0400
+
+    Atividade JS1
+
+commit 30ec003d6f62d4f1e1765119ed1af85905557f8a
+Author: leideFerreira <lmsf@icomp.ufam.edu.br>
+Date:   Thu Mar 29 13:21:00 2018 -0400
+
+    CSS3
+
+commit 289c16b6df1d14a5c18f08e0522195e466268a76
+Author: leideFerreira <lmsf@icomp.ufam.edu.br>
+Date:   Mon Mar 26 17:51:14 2018 -0400
+
+    CSS2
+
+commit aa816e97659cd23ce5179bdffc4d69583347e3e4
+Author: leideFerreira <lmsf@icomp.ufam.edu.br>
+Date:   Wed Mar 21 17:59:50 2018 -0400
+
+    Atualização do exercicio
+
+commit 464b7e6d2c0c547d917a962e4845fc3399b83b2c
+
+a) O git status serve para mostrar a situação atual do versionamento, monitorando-o.
+

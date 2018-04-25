@@ -1,0 +1,35 @@
+div.blue { /*Inferior esquerdo*/
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+   
+}
+
+div.yellow{ /*canto superior esquerdo*/
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    bottom: -430px;  
+    left: 0px;
+    
+}
+div.red{ /*Superior direito*/
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    bottom: 200px;
+    left: 1250px;
+    
+}
+div.green{ /*Inferior direito*/
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    bottom: -225px;
+    left: 1250px;
+    
+}

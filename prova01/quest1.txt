@@ -1,0 +1,21 @@
+Erro 1
+linha 02 e 03: O <head> está dentro de <body>, deve-se separa-los como no exemplo abaixo:
+...
+<head>
+...
+</head>
+<body>
+...
+</body>
+
+Erro 2
+linha 04: A tag utilizada para adicionar um comentário está errada o certo seria:
+<!--Isto é um comentário, não deve aparecer na página-->
+
+Erro 3
+linha 10: A declaração de width não é dessa forma, deve-se
+muda-la para:
+width: 400px;
+
+Erro 4
+linha 11: A chamada da função para aplicação do estilo está incorreta
