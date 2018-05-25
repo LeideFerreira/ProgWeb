@@ -1,3 +1,6 @@
+Logs reportados corretamente. Definição de git status ok.
+Nota: 1.3
+
 commit 6994d07133c66731ae61e023f9a56dd8979ca3a6 (HEAD -> master, origin/master, origin/HEAD)
 Author: leideFerreira <lmsf@icomp.ufam.edu.br>
 Date:   Thu Apr 12 11:39:03 2018 -0400

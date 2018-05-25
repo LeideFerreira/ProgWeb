@@ -1,3 +1,6 @@
+Apenas o último erro não foi identificado corretamente.
+Nota: 1.5
+
 Erro 1
 linha 02 e 03: O <head> está dentro de <body>, deve-se separa-los como no exemplo abaixo:
 ...
