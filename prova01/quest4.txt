@@ -1,1 +1,4 @@
+A definição está correta, mas faltou o exemplo de código.
+Nota: 1.2
+
 Ele faz as declarações irem para o topo de um escopo.
