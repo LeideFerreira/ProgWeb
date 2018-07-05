@@ -15,13 +15,13 @@ use yii\widgets\ActiveForm;
         'method' => 'get',
     ]); ?>
 
-    <?= $form->field($model, 'id') ?>
-
     <?= $form->field($model, 'nome') ?>
 
     <?= $form->field($model, 'sigla') ?>
 
     <?= $form->field($model, 'descricao') ?>
+
+    <?= $form->field($model, 'id') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

@@ -62,6 +62,7 @@ class UserSearch extends User
             'id' => $this->id,
             'id_curso' => $this->id_curso,
             'status' => $this->status,
+         //   'username' => $this->username, //modifiquei aqui
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
         ]);

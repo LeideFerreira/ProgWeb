@@ -18,8 +18,8 @@ class CursoSearch extends Curso
     public function rules()
     {
         return [
-            [['id'], 'integer'],
             [['nome', 'sigla', 'descricao'], 'safe'],
+            [['id'], 'integer'],
         ];
     }
 

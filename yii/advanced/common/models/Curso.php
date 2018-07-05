@@ -7,10 +7,10 @@ use Yii;
 /**
  * This is the model class for table "curso".
  *
- * @property int $id
  * @property string $nome
  * @property string $sigla
  * @property string $descricao
+ * @property int $id
  */
 class Curso extends \yii\db\ActiveRecord
 {
@@ -28,10 +28,10 @@ class Curso extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nome', 'sigla', 'descricao'], 'required','message'=>'Este campo é obrigatório'],
+            [['nome', 'sigla', 'descricao'], 'required'],
             [['descricao'], 'string'],
-            [['nome'], 'string', 'max' => 50],
-            [['sigla'], 'string', 'max' => 5],
+            [['nome'], 'string', 'max' => 45],
+            [['sigla'], 'string', 'max' => 4],
         ];
     }
 
@@ -41,10 +41,10 @@ class Curso extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
             'nome' => 'Nome',
             'sigla' => 'Sigla',
             'descricao' => 'Descricao',
+            'id' => 'ID',
         ];
     }
 }
