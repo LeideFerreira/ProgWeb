@@ -18,11 +18,15 @@ class jogoController extends \yii\web\Controller
 
     public function actionSaved($pontuacao) //Vou enviar pra cá o ajax
     {
+    if (!Yii::$app->user->isGuest) { // Checando se o usuário está logado
         $jogada = new Jogada;
+        $jogada->id_user = Yii::$app->user->id;
         $jogada->pontuacao = $pontuacao;
-        $jogada->id_user = Yii::$app->use->id; //Pegar o id do cara logado
-        $jogada->save();//Salvar no banco
-        return $this->render('saved');
-    }
+        if ($jogada->save()) {
+        return 1;
+        } else {
+        return 0;
+        }
+        }
 
 }
