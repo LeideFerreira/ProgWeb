@@ -7,6 +7,7 @@ use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;
 
+
 /**
  * User model
  *
@@ -21,6 +22,7 @@ use yii\web\IdentityInterface;
  * @property integer $updated_at
  * @property string $password
  */
+
 class User extends ActiveRecord implements IdentityInterface
 {
     const STATUS_DELETED = 0;
@@ -156,6 +158,12 @@ class User extends ActiveRecord implements IdentityInterface
         return Yii::$app->security->validatePassword($password, $this->password_hash);
     }
 
+ 
+    public function afterFind(){
+        $this->created_at = date("d/M/y",$this->created_at);
+        $this->updated_at = date("d/M/y", $this->updated_at);
+       
+    }
     /**
      * Generates password hash from password and sets it to the model
      *

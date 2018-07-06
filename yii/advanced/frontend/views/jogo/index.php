@@ -2,7 +2,7 @@
 /* @var $this yii\web\View */
 use yii\helpers\Url;
 
-$this->registerJsFile(""); //Integrar o jogo
+$this->registerJsFile('@SkierFree/js/skiefree.js'); //Integrar o jogo
 $this->registerJs("
     var pontuacao = 6000;
     $.ajax({
@@ -21,6 +21,7 @@ $this->registerJs("
 ");
 ?>
 <h1>/jogo/index</h1>
+
 <div id = "montanha"></div>
 <p>
     You may change the content of this page by modifying

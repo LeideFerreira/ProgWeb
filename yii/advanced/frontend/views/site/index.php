@@ -12,7 +12,7 @@ $this->title = 'Skifree';
 
         <p class="lead">You have successfully created your Yii-powered application.</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Iniciar Jogo!</a></p>
+        <p><a class="btn btn-lg btn-success" href="/Progweb/SkierFree/index.html">Iniciar Jogo!</a></p>
     </div>
 
     <div class="body-content">

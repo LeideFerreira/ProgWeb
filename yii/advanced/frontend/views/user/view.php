@@ -2,12 +2,16 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+use common\models\Curso;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\User */
 
-$this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Users', 'url' => ['index']];
+//$modelo = Curso::find()->where(['id_curso' == 'id'])->one();
+$this->title = $model->username;
+$modelo_curso = Curso::findOne('id');
+
+$this->params['breadcrumbs'][] = ['label' => 'Usuário', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="user-view">
@@ -26,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
 
     <?= DetailView::widget([
-        'model' => $model,
+        /*'model' => $model,
         'attributes' => [
            // 'id',
             'username',
@@ -35,9 +39,16 @@ $this->params['breadcrumbs'][] = $this->title;
            // 'password_reset_token',
             'email:email',
             'id_curso',
-           // 'status',
-           // 'created_at',
-           // 'updated_at',
+            //'status',
+            'created_at',
+            'updated_at',
+            
+        ],
+        */
+        'model' => $modelo_curso,
+        'attributes' => [
+            'nome',
+            'descicao',
         ],
     ]) ?>
 
